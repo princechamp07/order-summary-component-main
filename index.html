@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Order summary card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+      background: url(images/pattern-background-desktop.svg) no-repeat center/cover hsl(225, 100%, 94%);
+    }
+    .main{
+      top:50%;
+      left:50%;
+      position: absolute;
+      transform: translate(-50%,-50%);
+      width: 380px;
+      border-radius: 20px;
+      background-color: #fff;
+    }
+
+      img{
+        width:380px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+      }
+
+      h1{
+        padding: 5px 20px;
+        text-align: center;
+      }
+      p{
+        padding-left: 10px;
+        font-size: 15px;
+        text-align: center;
+        color:hsl(224, 23%, 55%);
+      }
+
+      h3{
+        text-align: center;
+        margin-top: -16%;
+      }
+
+      .icon{
+        width: 20%;
+        margin-top: 12%;
+        margin-left: 14%;
+      }
+
+      .icon img{
+        width: 68%;
+        
+      }
+
+      
+      .change{
+        margin-top: -19%;
+        margin-left: 79%;
+      padding-bottom: 11%;
+      
+    }
+
+    .change a{
+      color:hsl(245, 75%, 52%);
+    }
+
+    .change a:hover{
+      color:  hsl(245, 59%, 56%);
+    }
+
+    .btn{
+      margin-left: 19%;
+      background-color: hsl(245, 75%, 52%);
+      width:200px;
+      border-radius: 10px;
+      padding-left: 40px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      cursor: pointer;
+      
+    }
+
+    .btn:hover{
+      background-color:  hsl(245, 59%, 56%);
+    }
+
+    .btn a{
+      color:#fff;
+      text-decoration: none;
+    }
+
+    .price{
+      margin-top: -11px;
+      margin-left: -37px;
+    }
+     .cancel a{
+      text-decoration: none;
+      color:hsl(224, 23%, 55%);
+    }
+    .cancel a:hover {
+      color:black;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="main">
+    
+    <img src="images/illustration-hero.svg" alt="">
+  <h1> Order Summary</h1>
+
+  <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
+  device anywhere you like!</p>
+
+  <div class="icon"><img src="images/icon-music.svg" alt=""></div><h3> Annual Plan</h3>
+  <div class="price"><p>$59.99/year</p> </div><br>
+
+  <div class="change"><a href="">Change</a><br></div>
+
+  <div class="btn"><a href=""> Proceed to Payment</a></div>
+  <div class="cancel"><P><a href=""> Cancel Order</a></P></div>
+</div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Vishal Sharma</a>.
+  </div>
+</body>
+</html>
